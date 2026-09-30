@@ -7,5 +7,6 @@
 | `b_homework_refactored.js` | B — d_homework.js หลังแก้ตามรีวิว | `node b_homework_refactored.js` |
 | `c_debug.js` | C — ดีบักด้วย AI | `node c_debug.js` |
 | `d_story.js` | D — User Story → Prompt → Code → Test | `node d_story.js` |
+| `ts_playground.ts` | TypeScript ใน VS Code (แทน Playground) | เปิดใน VS Code ดูเส้นแดง |
 | `prompts.md` | บันทึก prompt ทุกข้อ + ผลลัพธ์ + การประเมิน | — |
 | `prompt-library.md` | การบ้าน: Prompt Library ส่วนตัว | — |
