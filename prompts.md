@@ -49,7 +49,13 @@ function calculateFare(distance, baseFare = 35, ratePerKm = 5.5) {
 ---
 
 ## Part B — อธิบาย + รีวิวโค้ด d_homework.js
-> รอไฟล์ d_homework.js (การบ้านคาบ 5) — ดูผลใน `b_review.md`
+**Prompt 1:** อธิบายโค้ดทีละบรรทัด (ตาราง 2 คอลัมน์ ไม่เกิน 10 แถว) — เต็มใน `b_review.md`
+**ผลลัพธ์ย่อ:** ตาราง 10 แถว อธิบาย map/filter/reduce/chain
+**ตรวจแล้ว:** ถูก — ควรขยาย: filter ได้ array ใหม่ แต่ object ข้างในเป็นตัวเดียวกับของเดิม (ไม่ได้ copy)
+**Prompt 2:** รีวิวในฐานะ senior developer 3 ข้อ
+**ผลลัพธ์ย่อ:** (1) filter ซ้ำ (2) reduce ซ้ำ → แยกฟังก์ชัน (3) magic string "Dev"
+**ตรวจแล้ว:** ใช้ข้อ 1 (ใช้ `devs` ซ้ำ) รันซ้ำผลเท่าเดิม · ไม่ใช้ข้อ 2, 3 (เหตุผลใน `b_review.md`)
+**รอบที่ iterate:** 1
 
 ---
 
